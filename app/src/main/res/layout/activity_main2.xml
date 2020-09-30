@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/kocka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/dice_1"
+        app:srcCompat="@drawable/empty_dice"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        tools:text="@string/uvitanie"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+         />
+
+    <Button
+        android:id="@+id/tlacidlo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stlac_ma"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        />
+
+</LinearLayout>
